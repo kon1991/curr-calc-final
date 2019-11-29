@@ -1,22 +1,63 @@
+
 .App {
-  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: roboto;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(97, 88, 88);
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.container {
+  margin-top: 5px;
+  width: 600px;
+  height: 300px;
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(219, 190, 23);
+  border-radius: 5px;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.options {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding:5px 10px 20px;
+}
+
+.edit-container {
+  background-color: rgb(201, 198, 69);
+}
+
+button, input, select {
+  padding: 5px;
+  border-radius: 4px;
+  border-color: cyan;
+  
+  box-sizing: border-box;
+}
+/*remove the spinner from number inputs*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
