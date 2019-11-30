@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/curr-calc-final/static/css/main.40696a29.chunk.css",
+    "main.js": "/curr-calc-final/static/js/main.98d7468d.chunk.js",
+    "main.js.map": "/curr-calc-final/static/js/main.98d7468d.chunk.js.map",
+    "runtime-main.js": "/curr-calc-final/static/js/runtime-main.cd375e0f.js",
+    "runtime-main.js.map": "/curr-calc-final/static/js/runtime-main.cd375e0f.js.map",
+    "static/js/2.3caf16c8.chunk.js": "/curr-calc-final/static/js/2.3caf16c8.chunk.js",
+    "static/js/2.3caf16c8.chunk.js.map": "/curr-calc-final/static/js/2.3caf16c8.chunk.js.map",
+    "index.html": "/curr-calc-final/index.html",
+    "precache-manifest.1a768c4f19b253cc06fa0c9852e7b046.js": "/curr-calc-final/precache-manifest.1a768c4f19b253cc06fa0c9852e7b046.js",
+    "service-worker.js": "/curr-calc-final/service-worker.js",
+    "static/css/main.40696a29.chunk.css.map": "/curr-calc-final/static/css/main.40696a29.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd375e0f.js",
+    "static/js/2.3caf16c8.chunk.js",
+    "static/css/main.40696a29.chunk.css",
+    "static/js/main.98d7468d.chunk.js"
+  ]
+}
